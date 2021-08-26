@@ -1,0 +1,22 @@
+/*----MAIN-----*/
+.divImagemMaior{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3em;
+}
+
+.imgfiguras{
+    border-radius: 50%;
+}
+
+pTextos{
+    font-size: = 20px;
+}
+
+pFiguras{
+    font-size = 28px;
+}
+
+.Titulo2{
+    padding-bottom: 1.5em;
+}

@@ -1,0 +1,16 @@
+/*----FOOTER-----*/
+.rodape{
+    font-family: "verdana";
+    background: orange;
+    text-align: center;
+    padding: 1.5em;
+    font-size: 0.7em;
+}
+
+.prodape1{
+    font-size: 1.7em;
+}
+
+.imgfiguras{
+    border-radius: 50%;
+}

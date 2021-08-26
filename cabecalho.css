@@ -1,0 +1,54 @@
+/*----HEADER-----*/
+.cabecalho{
+    background: #870000;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.navMenu{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.listaMenu{
+}
+
+.itemMenu{
+    display: inline;
+}
+
+/*Animação dos links do menu de navegação*/
+.linkMenu{
+    font-family: "verdana";
+    color: orange;
+    font-size: 1.3em;
+    font-weight: normal;
+    margin: 0.5em;
+    font-size: 1.3em;
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.linkMenu::after{
+    content: " ";
+    width: 0%;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    transition: width 0.5s ease-in-out;
+}
+
+.linkMenu:hover::after{
+    width: 100%;
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    background-color: white;
+}
+
